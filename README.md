@@ -12,7 +12,7 @@
 
     Images: https://unsplash.com/
     
-#Deploy
+# Deploy
     Heroku: https://ecommercewebshop.herokuapp.com/
 
 # Preview
