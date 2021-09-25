@@ -11,6 +11,9 @@
     Boxicons: https://boxicons.com/
 
     Images: https://unsplash.com/
+    
+#Deploy
+    Heroku: https://ecommercewebshop.herokuapp.com/
 
 # Preview
 
