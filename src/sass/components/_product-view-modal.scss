@@ -1,0 +1,46 @@
+.product-view-modal {
+  position: fixed;
+  z-index: 101;
+
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding-top: $header-shrink-height;
+
+  background-color: rgba(0, 0, 0, 0.4);
+  overflow: auto;
+  opacity: 0;
+  visibility: hidden;
+
+  &.active {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  &__content {
+    position: relative;
+    margin: auto;
+    padding: 2rem;
+    width: 50%;
+
+    background-color: $main-bg;
+    border-radius: 4px;
+
+    opacity: 0;
+    transform: translateY(-250px);
+    transition: transform 0.3s ease;
+
+    &__close {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+  }
+
+  &.active,
+  &__content {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
